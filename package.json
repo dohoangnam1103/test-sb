@@ -13,7 +13,8 @@
     "format": "prettier --write src/",
     "storybook": "start-storybook -p 6006",
     "test-storybook": "test-storybook",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=07a57b7fe205"
   },
   "dependencies": {
     "pinia": "^2.0.32",
@@ -48,5 +49,7 @@
     "vite": "^4.1.4",
     "vitest": "^0.29.1",
     "vue-loader": "^16.8.3"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "vue-project@0.0.0"
 }
